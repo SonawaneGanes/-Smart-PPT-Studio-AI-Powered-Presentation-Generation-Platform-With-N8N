@@ -20,7 +20,7 @@
     },
     {
       "parameters": {
-        "promptType": "define",
+         "promptType": "define",
         "text": "=based on the given below info , try to create a pptx python code for generating a power point presentation {{ $json.body.prompt }}\n\nthe output must should only contain python code  ",
         "options": {
           "systemMessage": "You are a helpful assistant and you are having a 10+ years of experience in creating a ppt based on a given topic"
@@ -55,7 +55,7 @@
       }
     },
     {
-      "parameters": {
+       "parameters": {
         "options": {}
       },
       "type": "n8n-nodes-base.respondToWebhook",
