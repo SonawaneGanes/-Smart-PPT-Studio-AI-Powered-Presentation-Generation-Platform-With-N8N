@@ -133,7 +133,7 @@ class SmartPresentation:
 
             p.text = f"• {point}"
 
-            p.font.size = Pt(20)
+             p.font.size = Pt(20)
 
             p.font.color.rgb = self.theme["text"]
 
